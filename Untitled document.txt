@@ -1,0 +1,40 @@
+﻿Agile
+        1) 
+As a vanilla git power-user that has never seen GiggleGit before, I want to know how they differ from each other to see which is the best fit for me.
+
+
+As a Team lead onboarding an experienced GiggleGit user, I want to make sure that my team can easily set up their environment and get to work. 
+
+
+2) 
+User Story 3: As a developer who works on multiple devices, I want to be able to work across them without having to re-authenticate myself each time. 
+        Task: Implement continuous authentication
+                Ticket 1: Implement an authentication token
+* Come up with a safe way to store the tokens locally, without exposing them on github or the internet
+                Ticket 2: Implement seamless authentication across devices
+* Develop a method so that a user can log in once on a given device and then use the token to authenticate the user on all following devices
+
+
+3) 
+It's not a user story because it lacks specificity. We need to know who the user is and why the feature is needed. It is more of a functional requirement/feature request than a user story.
+
+
+
+
+
+
+Formal Requirements
+Goal: Ensure the interface has seamless synchronization between GiggleGit and SnickerSync
+
+
+        Non-Goal: Dynamically / intelligently generate funny and witty responses
+                Non-Functional Requirement 1: Access
+                        Functional Requirements
+* Only PMs with access should be able to modify or implement new material
+* Devs should not have access to SnickerSyncs core code but should have access to the diff and merge functions
+
+
+                Non-Functional Requirement 2: Randomizing 
+                        Functional Requirements
+* SnickerSync has to randomly assign users to both control and experimental groups when testing. 
+* The data gathered from testing must be securely stored.
