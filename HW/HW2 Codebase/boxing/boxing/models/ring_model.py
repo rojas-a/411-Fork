@@ -151,3 +151,4 @@ class RingModel:
         logger.debug(f"Computed fighting skill for {boxer.name}: {skill}")
 
         return skill
+
